@@ -18,8 +18,8 @@
   
   <entry>
     <title>Kotlin Guide - 01: Introduction</title>
-    <link href="https://post.growdrep.me/2020/08/04/kotlin-guide-01/"/>
-    <id>https://post.growdrep.me/2020/08/04/kotlin-guide-01/</id>
+    <link href="https://post.growdrep.me/guide/kotlin/kotlin-guide-01/"/>
+    <id>https://post.growdrep.me/guide/kotlin/kotlin-guide-01/</id>
     <published>2020-08-04T02:36:14.000Z</published>
     <updated>2020-08-04T03:44:43.505Z</updated>
     
@@ -49,10 +49,10 @@
   
   <entry>
     <title>hello</title>
-    <link href="https://post.growdrep.me/2020/06/15/hello/"/>
-    <id>https://post.growdrep.me/2020/06/15/hello/</id>
+    <link href="https://post.growdrep.me/announcement/hello/"/>
+    <id>https://post.growdrep.me/announcement/hello/</id>
     <published>2020-06-15T05:42:39.000Z</published>
-    <updated>2020-07-03T03:37:05.250Z</updated>
+    <updated>2020-08-04T05:40:53.545Z</updated>
     
     <content type="html"><![CDATA[<h2 id="테스트-포스팅"><a href="#테스트-포스팅" class="headerlink" title="테스트 포스팅"></a>테스트 포스팅</h2><p>안녕하세요. 대한민국에 사는 Patrick입니다!</p>]]></content>
     
@@ -68,6 +68,8 @@
     
     </summary>
     
+    
+      <category term="Announcement" scheme="https://post.growdrep.me/categories/announcement/"/>
     
     
   </entry>
