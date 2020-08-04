@@ -4,6 +4,6 @@ date: 2020-06-15 14:42:39
 tags:
 ---
 
-## Sample Posting
+## 테스트 포스팅
 
-My name is Patrick, and I'm from Korea, Republic of.
+안녕하세요. 대한민국에 사는 Patrick입니다!
