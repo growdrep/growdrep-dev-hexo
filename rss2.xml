@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GrowDrep Posts</title>
+    <link>https://post.growdrep.me/</link>
+    
+    <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>GrowDrep Dev Posts by PatrickKR</description>
+    <pubDate>Tue, 04 Aug 2020 03:44:43 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Kotlin Guide - 01: Introduction</title>
+      <link>https://post.growdrep.me/2020/08/04/kotlin-guide-01/</link>
+      <guid>https://post.growdrep.me/2020/08/04/kotlin-guide-01/</guid>
+      <pubDate>Tue, 04 Aug 2020 02:36:14 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h1 id=&quot;Kotlin-Guide-01-Introduction&quot;&gt;&lt;a href=&quot;#Kotlin-Guide-01-Introduction&quot; class=&quot;headerlink&quot; title=&quot;Kotlin Guide - 01: Introduction&quot;&gt;&lt;/a&gt;Kotlin Guide - 01: Introduction&lt;/h1&gt;&lt;h4
+          
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<h1 id="Kotlin-Guide-01-Introduction"><a href="#Kotlin-Guide-01-Introduction" class="headerlink" title="Kotlin Guide - 01: Introduction"></a>Kotlin Guide - 01: Introduction</h1><h4 id="이-가이드는-어느정도-프로그래밍과-Java-에-대해-아시는-분들에게-권장됩니다-혹시-전혀-모르신다면-다음에-한번-프로그래밍에-대해-또-Java에-대해-Posting-해보겠습니다"><a href="#이-가이드는-어느정도-프로그래밍과-Java-에-대해-아시는-분들에게-권장됩니다-혹시-전혀-모르신다면-다음에-한번-프로그래밍에-대해-또-Java에-대해-Posting-해보겠습니다" class="headerlink" title="이 가이드는 어느정도 프로그래밍과, Java 에 대해 아시는 분들에게 권장됩니다! 혹시 전혀 모르신다면, 다음에 한번 프로그래밍에 대해, 또 Java에 대해 Posting 해보겠습니다!"></a>이 가이드는 어느정도 프로그래밍과, Java 에 대해 아시는 분들에게 권장됩니다! 혹시 전혀 모르신다면, 다음에 한번 프로그래밍에 대해, 또 Java에 대해 Posting 해보겠습니다!</h4><h2 id="코틀린-가이드-코틀린이란-무엇인가"><a href="#코틀린-가이드-코틀린이란-무엇인가" class="headerlink" title="코틀린 가이드 - 코틀린이란 무엇인가"></a>코틀린 가이드 - 코틀린이란 무엇인가</h2><ul><li>Jetbrains 사가 개발한 JVM 바이트 코드 기반의 언어!</li><li>간결한 문법, Null로부터 안전한 언어</li><li>구글이 사랑하는, 안드로이드 개발의 표준 언어</li></ul><h2 id="특징"><a href="#특징" class="headerlink" title="특징"></a>특징</h2><h4 id="Kotlin"><a href="#Kotlin" class="headerlink" title="Kotlin"></a>Kotlin</h4><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">fun</span> <span class="title">main</span><span class="params">(args: <span class="type">Array</span>&lt;<span class="type">String</span>&gt;)</span></span> &#123;</span><br><span class="line">    println(<span class="string">"Hello World!"</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h4 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> me.growdrep.patrick;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> class <span class="title">Main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"Hello World!"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>정말 간단한 문법. Java를 해보셨다면 아시겠지만, Java의 문법은 정말로 깁니다…</li><li>Class의 사용 규칙 변화. 파일명과 Public Class명이 일치하지 않아도 되며, 여러 클래스나 Class 없이 선언하기 등 왠만한게 모두 가능합니다!</li><li>Null Safety! NullPointerException 오류를 볼 일이 상당히 줄어듭니다!</li><li>나머지 것들은 가이드를 작성하면서 하나하나 알아가도록 합시다!</li></ul><h2 id="다음-가이드-예고"><a href="#다음-가이드-예고" class="headerlink" title="다음 가이드 예고"></a>다음 가이드 예고</h2><p>다음 가이드에서는, Primitive Type을 비롯하여, Kotlin을 사용하기 전에 알아야 할 것들을 알아보도록 합시다!</p><p>감사합니다!</p><h4 id="License"><a href="#License" class="headerlink" title="License"></a>License</h4><p>위 글은 2020년 8월 4일, post.growdrep.me에 올리는 글입니다.</p><p><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener"><img src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" alt="Creative Commons License"></a></p><p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</p><p>이 저작물은 <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">크리에이티브 커먼즈 저작자표시-비영리-변경금지 4.0 국제 라이선스</a>에 따라 이용할 수 있습니다.</p>]]></content:encoded>
+      
+      <comments>https://post.growdrep.me/2020/08/04/kotlin-guide-01/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>hello</title>
+      <link>https://post.growdrep.me/2020/06/15/hello/</link>
+      <guid>https://post.growdrep.me/2020/06/15/hello/</guid>
+      <pubDate>Mon, 15 Jun 2020 05:42:39 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h2 id=&quot;테스트-포스팅&quot;&gt;&lt;a href=&quot;#테스트-포스팅&quot; class=&quot;headerlink&quot; title=&quot;테스트 포스팅&quot;&gt;&lt;/a&gt;테스트 포스팅&lt;/h2&gt;&lt;p&gt;안녕하세요. 대한민국에 사는
+          
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<h2 id="테스트-포스팅"><a href="#테스트-포스팅" class="headerlink" title="테스트 포스팅"></a>테스트 포스팅</h2><p>안녕하세요. 대한민국에 사는 Patrick입니다!</p>]]></content:encoded>
+      
+      <comments>https://post.growdrep.me/2020/06/15/hello/#disqus_thread</comments>
+    </item>
+    
+  </channel>
+</rss>
